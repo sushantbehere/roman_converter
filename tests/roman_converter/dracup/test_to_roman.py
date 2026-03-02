@@ -24,9 +24,9 @@ def test_to_roman(impl: ModuleType):
     assert impl.to_roman(900) == "CM"
 
     # Mixed numbers
-    assert impl.to_roman(58) == "LVIII"       # L + V + III
-    assert impl.to_roman(1994) == "MCMXCIV"  # M + CM + XC + IV
-    assert impl.to_roman(2421) == "MMCDXXI"  # MM + CD + XX + I
+    assert impl.to_roman(58) == "LVIII"       
+    assert impl.to_roman(1994) == "MCMXCIV"  
+    assert impl.to_roman(2421) == "MMCDXXI"  
 
 def test_from_roman(impl: ModuleType):
     # Minimal and maximal
